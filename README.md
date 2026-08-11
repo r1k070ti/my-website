@@ -1,5 +1,5 @@
 # PC Website
-This is a website with my name and some goals of mine, it also has a image of a cool red pc!
+This is a website with my name and some goals of mine, it also has a image of some cool looking PC`s!
 
 ## Preview
 

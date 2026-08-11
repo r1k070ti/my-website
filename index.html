@@ -1,14 +1,317 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>My Page</title>
-  </head>
-<body>
-  <h1 class="text-blue-500 text-3xl font-bold italic">Santiago Martins</h1>  
-  <p class="mt-3">Im 15 and im trying to learn how to program</p>
-  <p>Im going to build an website about computers!</p>
-  <p class="flex flex-row items-start">This is a gaming PC with <span class="text-red-500 mx-1 font-bold underline" > red </span> RGB, cool?</p>
-    <img src="https://breunor.com/cdn/shop/files/rossa_4649c942-d446-4369-9cc6-db35e9026377.jpg?v=1771404016&width=1024" alt="A photo of a cool red gaming pc" width="500" />
-    </body>
+
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Computer Components</title>
+</head>
+
+<body class="bg-zinc-800 p-4">
+  <h1 class="text-blue-400 text-3xl font-bold italic">About me:</h1>
+  <p class="mt-3 text-white">Hi, my name is Santiago, Im 15 and im trying to learn how to program!</p>
+  <p class="text-white">Im going to build an website about computers!</p>
+  <p class="text-white">I wish to make better projects in the future or make this one better!</p>
+  <p class="mt-12 text-gray-100 text-5xl font-bold underline italic"> What is a PC? How does it work?</p>
+
+  <p class="mt-8 text-3xl font-bold text-gray-300">These are some cool gaming PC's, you can check their specs below!</p>
+  <div class="flex flex-row flex-wrap gap-8 p-4">
+    <div
+      class="flex flex-col justify-start items-start mt-4 bg-red-300 p-4 rounded-3xl outline outline-2 outline-red-700 shadow shadow-xl shadow-red-900/70">
+      <h2 class="text-xl font-bold mt-4">Red Gaming PC:</h2>
+      <img src="./assets/red pc.png" alt="A photo of a cool red gaming pc" width="500" />
+      <p>This <span class="text-red-500 font-bold underline">red</span> gaming PC has some really cool Lian Li fans!</p>
+      <p class="mt-3"></p>
+      <h3 class="text-lg font-bold">Specs:</h3>
+      <ul class="list-disc list-inside">
+        <li>Ryzen 7 9800X3D</li>
+        <li>RTX 4070 Ti Super</li>
+        <li>32GB DDR5</li>
+        <li>4TB SSD</li>
+        <li>x870E-E Rog Strix</li>
+      </ul>
+    </div>
+    <div
+      class="flex flex-col justify-start items-start mt-4 bg-blue-300 p-4 rounded-3xl outline outline-2 outline-blue-700 shadow shadow-xl shadow-blue-900/70">
+      <h2 class="text-xl font-bold mt-4">Blue Gaming PC:</h2>
+      <img src="./assets/blue pc.png" alt="A photo of a cool blue gaming pc" width="500" />
+      <p> This is a awesome <span class="text-blue-500 font-bold underline">blue</span> gaming PC!</p>
+      <p>This blue gaming pc, is really good for gaming besides being really aesthetic!</p>
+      <p class="mt-3"></p>
+      <h3 class="text-lg font-bold">Specs:</h3>
+      <ul class="list-disc list-inside">
+        <li>Ryzen 5 9600x</li>
+        <li>RTX 5070 Ti </li>
+        <li>16GB DDR5</li>
+        <li>2TB SSD</li>
+        <li>b850-E Tuf Gaming</li>
+      </ul>
+    </div>
+    <div
+      class="flex flex-col justify-start items-start mt-4 bg-purple-300 p-4 rounded-3xl outline outline-2 outline-purple-700 shadow shadow-xl shadow-purple-900/70">
+      <h2 class="text-xl font-bold mt-4">Purple Gaming PC:</h2>
+      <img src="./assets/purple pc.png" alt="A photo of a cool purple gaming pc" width="500" />
+      <p>This is a really good looking <span class="text-purple-500 font-bold underline">purple</span> gaming PC!</p>
+      <p>It has a really cool Tuf Gaming GPU, and the case is really cool too!</p>
+      <p class="mt-3"></p>
+      <h3 class="text-lg font-bold">Specs:</h3>
+      <ul class="list-disc list-inside">
+        <li>Ryzen 9 9950X3D</li>
+        <li>RTX 5090 </li>
+        <li>128GB DDR5</li>
+        <li>16TB SSD</li>
+        <li>x870E-E Rog Dark Hero</li>
+      </ul>
+    </div>
+    <div
+      class="flex flex-col justify-start items-start mt-4 bg-orange-300 p-4 rounded-3xl outline outline-2 outline-orange-700 shadow shadow-xl shadow-orange-900/70">
+      <h2 class="text-xl font-bold mt-4">Orange Gaming PC:</h2>
+      <img src="./assets/orange pc.png" alt="A photo of a beautiful orange gaming pc" width="500" />
+      <p>This is a beautiful <span class="text-orange-500 font-bold underline">orange</span> PC!</p>
+      <p>This PC has a really cool case! And some really nice fans aswell!</p>
+      <p class="mt-3"></p>
+      <h3 class="text-lg font-bold">Specs:</h3>
+      <ul class="list-disc list-inside">
+        <li>Ryzen 7 7800X3D</li>
+        <li>RTX 5060 Ti</li>
+        <li>32GB DDR5</li>
+        <li>1TB SSD</li>
+        <li>b650-E Tuf Gaming</li>
+      </ul>
+    </div>
+    <div>
+      <div class="flex flex-row gap-12">
+        <div class="flex flex-col">
+          <div class="flex flex-row gap-12">
+            <div
+              class="w-fit flex flex-col justify-start items-start mt-4 bg-green-300 p-4 rounded-3xl outline outline-2 outline-green-700 shadow shadow-xl shadow-green-900/70">
+              <h2 class="text-xl font-bold mt-4">Green Gaming PC:</h2>
+              <img src="./assets/green pc.png" alt="A photo of a cool green gaming pc" width="500" />
+              <p>This is a really good looking <span class="text-green-500 font-bold underline">green</span> gaming PC!
+              </p>
+              <p>This PC has a really cool looking GPU!</p>
+              <p class="mt-3"></p>
+              <h3 class="text-lg font-bold">Specs:</h3>
+              <ul class="list-disc list-inside">
+                <li>Intel Core i5 14660KF</li>
+                <li>RTX 5070</li>
+                <li>16GB DDR5</li>
+                <li>1TB SSD</li>
+                <li>b650-E Tuf Gaming</li>
+              </ul>
+            </div>
+            <div
+              class="w-fit justify-start items-start mt-4 bg-pink-300 p-4 rounded-3xl outline outline-2 outline-pink-700 shadow shadow-xl shadow-pink-900/70">
+              <h2 class="text-xl font-bold mt-4">Pink Gaming PC:</h2>
+              <img src="./assets/pink pc.png" alt="A photo of a cool pink gaming pc" width="500" />
+              <p>This is a really good looking <span class="text-pink-500 font-bold underline">pink</span> gaming PC!
+              </p>
+              <p>This PC has a really cool cooler and some really nice RAM sticks!</p>
+              <p class="mt-3"></p>
+              <h3 class="text-lg font-bold">Specs:</h3>
+              <ul class="list-disc list-inside">
+                <li>Intel Core i7 14700K</li>
+                <li>RTX 5080</li>
+                <li>32GB DDR5</li>
+                <li>2TB SSD</li>
+                <li>x870E-E Rog Strix</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div
+          class="w-fit justify-start items-start mt-4 bg-cyan-300 p-4 rounded-3xl outline outline-2 outline-cyan-700 shadow shadow-xl shadow-cyan-900/70">
+          <h2 class="text-xl font-bold mt-4">Cyan Gaming PC:</h2>
+          <img src="./assets/cyan pc.png" alt="A photo of a cool cyan gaming pc" width="500" />
+          <p>This is a really good looking <span class="text-cyan-500 font-bold underline">cyan</span> gaming PC!</p>
+          <p>This PC has a really cool looking case and some really nice fans!</p>
+          <p>This PC also has some of the most beautiful RAM sticks i have ever seen</p>
+          <p class="mt-3"></p>
+          <h3 class="text-lg font-bold">Specs:</h3>
+          <ul class="list-disc list-inside">
+            <li>Intel Core i9 14900K</li>
+            <li>RTX 5080</li>
+            <li>96GB DDR5</li>
+            <li>4TB SSD</li>
+            <li>x870 Aorus Master</li>
+          </ul>
+        </div>
+        <div
+          class="w-fit justify-start items-start mt-4 bg-white p-4 rounded-3xl outline outline-2 outline-gray-500 shadow shadow-xl shadow-white/70">
+          <h2 class="text-xl font-bold mt-4">White Gaming PC:</h2>
+          <img src="./assets/white pc.png" alt="A photo of a cool white gaming pc" width="500" />
+          <p>This is a really good looking <span class="text-white font-bold underline">white</span> gaming PC!
+          </p>
+          <p>This PC has a really cool looking case and some really nice RAM sticks!</p>
+          <p>This PC also has a really cool screen!</p>
+          <p>You can use that screen to check your temps!</p>
+          <p class="mt-3"></p>
+          <h3 class="text-lg font-bold">Specs:</h3>
+          <ul class="list-disc list-inside">
+            <li>Ryzen 9 9950X3D2</li>
+            <li>RTX 5090</li>
+            <li>128GB DDR5</li>
+            <li>16TB SSD</li>
+            <li>x870E-E Rog Dark Hero</li>
+          </ul>
+        </div>
+      </div>
+      <p class="mt-12 text-3xl font-bold text-gray-300">Definition and Examples of some PC components:</p>
+    </div>
+    <div class="flex flex-row gap-12">
+      <div class="w-1/2">
+        <p class="mt-8 text-2xl font-bold text-gray-400">What is a processor?</p>
+        <p class="mt-2 text-white">A processor (CPU) is the brain of the computer, it's a small chip that handles
+          every
+          click
+          and command you make by performing billions of tiny calculations every second.</p>
+        <p class="mt-2 text-white">Processors are measured in GHz (gigahertz), which indicates how many cycles per
+          second
+          they
+          can perform.
+        <p class="mt-2 text-white">The more GHz a processor has, the faster it can process information, which means
+          your
+          computer will run smoother and faster when you have a powerful CPU.
+        <p class="mt-2 text-white">
+        <p class="mt-4 text-xl font-bold text-gray-400"> Some known Processor brands are Intel and AMD:</p>
+        <div class="flex flex-row flex-wrap gap-6 p-4">
+          <div class="flex flex-col justify-start items-start mt-4 bg-blue-500 p-4 rounded-2xl outline outline-2 outline-blue-700
+               shadow shadow-xl shadow-blue-900/70 w-2/5">
+            <p class="text-xl text-blue-700 font-bold text-underline"> Intel:</p>
+            <img class="self-center" src="./assets/intel.png" alt="Intel logo" width="300" />
+            <p class="mt-1 text-white"> An Intel CPU is a square silicon chip protected by a silver metal lid (IHS)
+              for
+              cooling, with a bottom side featuring gold LGA contact pads</p>
+            <p class="mt-3 font-bold text-white">Some good things about Intel CPUs:</p>
+            <ul class="list-disc list-inside text-white">
+              <li>Speed: Leading single-core performance for gaming and fast app loading</li>
+              <li>Media: QuickSync tech for industry-best video rendering and streaming</li>
+              <li>Reliability: Exceptional software compatibility and stable integrated graphics</li>
+              <p class="mt-3 font-bold text-white">Some bad things about Intel CPUs:</p>
+              <ul class="list-disc list-inside text-white">
+                <li>Optimization: While rare now, some older or niche software is still better optimized for Intel
+                  architecture first</li>
+                <li>Gaming Latency: In some mid-range models, they can slightly trail Intel in "instant"
+                  responsiveness
+                  in
+                  certain high-speed games</li>
+                <li>Memory Sensitivity: AMD processors are famously picky about RAM speed; to get the best
+                  performance,
+                  you
+                  often have to buy specific, faster memory</li>
+              </ul>
+          </div>
+          <div
+            class="flex flex-col justify-start items-start mt-4 bg-orange-600 p-4 rounded-2xl outline outline-2 outline-orange-800 shadow shadow-xl shadow-orange-900/70 w-2/5">
+            <p class="text-xl text-orange-800 font-bold text-underline"> AMD:</p>
+            <img class="self-center" src="./assets/amd.png" alt="AMD CPU" width="300" />
+            <p class="text-white">An AMD CPU is a square silicon chip topped with a silver metal lid (IHS) for heat
+              management. Depending on the model, the bottom features either gold pins (PGA) or flat gold contact pads
+              (LGA)
+              to connect to the motherboard</p>
+            <ul class="list-disc list-inside text-white">
+              <p class="mt-3 font-bold text-white">Some good things about AMD CPU's:</p>
+              <li>Value: Generally offers more "cores" and "threads" for the price, making it superior for heavy
+                multitasking
+                and workstation tasks</li>
+              <li>Longevity: Known for the AM4/AM5 sockets, which support many generations of chips, allowing you to
+                upgrade
+                your CPU without buying a new motherboard</li>
+              <li>Efficiency: Modern AMD chips often use less power and run cooler than Intel's top-end equivalents
+                while
+                maintaining high performance</li>
+              <p class="mt-3 font-bold text-white">Some bad things about AMD CPUs:</p>
+              <li>Optimization: While rare now, some older or niche software is still better optimized for Intel
+                architecture
+                first</li>
+              <li>Gaming Latency: In some mid-range models, they can slightly trail Intel in "instant" responsiveness
+                in
+                certain high-speed games</li>
+              <li>Memory Sensitivity: AMD processors are famously picky about RAM speed; to get the best performance,
+                you
+                often have to buy specific, faster memory</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="w-1/2">
+        <p class="mt-8 text-2xl font-bold text-gray-400">What is a graphics card?</p>
+        <p class="mt-2 text-white">The Graphics Card (or GPU) is the part of a computer responsible for everything you
+          see
+          on your screen.
+        <p class="mt-2 text-white">It acts as a dedicated translator that turns complex code from your apps into the
+          visual
+          interface, shapes, and colors that appear on your monitor.</p>
+        <p class="mt-2 text-white">If the Processor (CPU) is the "brain" that does the
+          thinking and logic, the Graphics Card is the "artist" that draws the pictures.</p>
+        <p class="mt-2 text-white">
+        <p class="mt-4 text-xl font-bold text-gray-400"> Some known Graphics Cards brands are Nvidia and AMD:</p>
+        <div class="flex flex-row flex-wrap gap-6 p-4">
+          <div
+            class="flex flex-col justify-start items-start mt-4 bg-green-500 p-4 rounded-2xl outline outline-2 outline-green-700 shadow shadow-xl shadow-green-900/70 w-2/5">
+            <p class="text-xl text-green-700 font-bold text-underline"> Nvidia:</p>
+            <img class="self-center" src="./assets/nvidia gpu.png" alt="Nvidia GPU" width="300" />
+            <p class="mt-1 text-white">Nvidia GPUs are typically rectangular circuit boards with a large central chip
+              (the
+              GPU) covered by a
+              metal heatsink and fan for cooling. They have multiple video output ports (HDMI, DisplayPort) on the
+              back
+              edge and are designed to fit into a PCIe slot on the motherboard</p>
+            <ul class="list-disc list-inside text-white">
+              <p class="mt-3 font-bold text-white">Some good things about Nvidia GPU's:</p>
+              <li>AI & Features: Industry-leading DLSS technology that uses AI to boost frame rates and image quality
+                significantly</li>
+              <li>Ray Tracing: The best performance for realistic lighting and reflections, making games look like
+                high-budget movies</li>
+              <li>Work & Streaming: The CUDA and NVENC cores make them the #1 choice for professional video editing,
+                3D
+                rendering, and high-quality live streaming</li>
+              <p class="mt-3 font-bold text-white">Some bad things about Nvidia GPU's:</p>
+              <li>Price: They usually carry a "tax" or premium price, costing more than AMD or Intel for the same
+                amount
+                of raw power</li>
+              <li>VRAM: Nvidia is often stingy with Video Memory on mid-range cards, which can limit performance in
+                very
+                high-resolution gaming</li>
+              <li>Closed Ecosystem: Most of their best software features are locked to Nvidia hardware, whereas
+                competitors' features often work on all brands</li>
+            </ul>
+          </div>
+          <div
+            class="flex flex-col justify-start items-start mt-4 bg-orange-500 p-4 rounded-2xl outline outline-2 outline-orange-700 shadow shadow-xl shadow-orange-900/70 w-2/5">
+            <p class="text-xl text-orange-700 font-bold text-underline"> AMD:</p>
+            <img class="self-center" src="./assets/amd gpu.png" alt="AMD GPU" width="300" />
+            <p class="mt-1 text-white"> An AMD GPU is often referred to as the "Radeon" series. Physically, these
+              cards
+              look similar to Nvidia's thick, rectangular bricks with 2 or 3 large fans but they often feature a more
+              industrial or "gamer" aesthetic with red and black accents. Like CPUs, they have a circuit board on the
+              bottom and a protective shroud on top to manage heat</p>
+            <ul class="list-disc list-inside text-white">
+              <p class="mt-3 font-bold text-white">Some good things about AMD GPU's:</p>
+              <li>Value for Money: AMD is the king of "Price-to-Performance." You typically get more raw gaming power
+                and
+                higher frame rates for every dollar spent compared to Nvidia</li>
+              <li>Generous VRAM: AMD cards often come with more Video Memory (VRAM) than Nvidia cards at the same
+                price.
+                This makes them "future-proof" for newer games that require a lot of memory for high-resolution
+                textures
+              </li>
+              <li>Open Standards: Their software features, like FSR (FidelityFX Super Resolution), are open-source.
+                This
+                means they work on almost any hardware, and AMD is a favorite for users who use Linux or the Steam
+                Deck
+              </li>
+              <p class="mt-3 font-bold text-white">Some bad things about AMD GPU's:</p>
+              <li>Ray Tracing: While AMD has improved, they still lag behind Nvidia in ultra-realistic lighting and
+                shadows. If you want "movie-like" visuals, AMD isn't quite as fast</li>
+              <li>AI & Productivity: They aren't as widely supported as Nvidia for professional work like 3D
+                animation,
+                AI
+                training, or high-end video streaming</li>
+              <li>Power Consumption: Some high-end AMD cards can be less efficient, drawing more electricity and
+                generating more heat to match the competition's performance</li>
+          </div>
+        </div>
+</body>
+
 </html>
